@@ -9,7 +9,7 @@ package ejercicio002;
  * @author SARIC
  */
 public class principal extends javax.swing.JFrame {
-    Ejercicio002 tienda;
+    VectorT tienda;
 
     /**
      * Creates new form principal
@@ -111,7 +111,7 @@ public class principal extends javax.swing.JFrame {
     private void aceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aceptarActionPerformed
         // TODO add your handling code here:
           Segundo jformularioB;
-        tienda = new Ejercicio002();
+        tienda = new VectorT(CAJAtam);
         if(tienda!=null){
             jformularioB = new Segundo(tienda);
             jformularioB.setVisible(true);
